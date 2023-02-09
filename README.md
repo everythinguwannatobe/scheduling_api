@@ -60,5 +60,5 @@ This api is decomposed into three Microservices.
 7. Implement Unit Testing functionality.
 8. Implement E2E Testing functionality.
 9. Implement CI/CD with Github Actions.
-10 Deploy to Amazon ECS.
+10. Deploy to Amazon ECS.
 
