@@ -1,14 +1,14 @@
 # SCHEDULING API (Rails)
 
-## _USER REQUIREMENTS_
+## 👨🏻‍💼_USER REQUIREMENTS_
 There are mainly two types of requirements - Individual & Group requirements.
 
-1. Individual requirements
+1. 🤵🏻Individual requirements
 * Manage their own scheduling.
 * Create, Remove a group.
 * Add a new member to a particular group if he is a creator of it.
 * Transfer the scheduled event to Group content
-2. Group requirements
+2. 👨‍👨‍👦Group requirements
 * Prevent duplication for time interval of every event
 * Send request, get permission for the duplicated time interval
 3. Common requirements
@@ -17,7 +17,7 @@ There are mainly two types of requirements - Individual & Group requirements.
 * Reminder functionality
 
 
-## _TECHNOLOGIES REQUIRED IN THE API_
+## 🛠_TECHNOLOGIES REQUIRED IN THE API_
 * Docker
 * Microservices architecture
 * OpenAPI
@@ -29,7 +29,7 @@ There are mainly two types of requirements - Individual & Group requirements.
 * CI/CD
 * Amazon Web Services(ECS)
 
-## _DATABASE STRUCTURE_
+## 📚_DATABASE STRUCTURE_
 Three main models are used in this api.
 * User
 * Group
@@ -40,7 +40,7 @@ Associations between models
 * User --- Group: Many-to-Many
 * Grop --- Event: Many-to-Many
 
-## _MICROSERVICES ARCHITECTURE_
+## 🧩_MICROSERVICES ARCHITECTURE_
 This api is decomposed into three Microservices.
 
 * User Management Service
@@ -48,7 +48,7 @@ This api is decomposed into three Microservices.
 * Event Management Service
 
 
-## _ROADMAP_
+## ⏰_ROADMAP_
 1. Set up environment using Docker.
 2. Design the project architecture based on Microservices architecture.
 3. Compose OpenAPI specification documentation.
